@@ -15,19 +15,19 @@
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "Title변경 "
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "YunTaeKyun"
+description              : "코딩공부 블로그입니다"
 url                      : "https://YunTaeKyun93.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/HoneyBadger.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "YunTaeKyun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "코딩공부 블로그입니다."
+  location         : "South Korea"
+  email            : 'ytk5495@gamil.com'
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -290,3 +290,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date : true
+
+date_format : "%Y-%m-%d"
